@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buda Korean Dogs</title>
+  <style>
+    body {
+      background-color: #FFDB58;
+      background-image: radial-gradient(#f6f6f6 1px, transparent 1px);
+      background-size: 20px 20px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #FF5733;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      color: white;
+      font-size: 4em;
+      margin: 0;
+    }
+    .description {
+      text-align: center;
+      padding: 10px 30px;
+      font-size: 1.2em;
+    }
+    .container {
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      width: 250px;
+    }
+    .product h3 {
+      color: #FF5733;
+    }
+    .product button {
+      margin-top: 10px;
+      background-color: #FF5733;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .product button:hover {
+      background-color: #e04e2a;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #444;
+      background-color: #fff3c4;
+      border-top: 1px solid #ddd;
+    }
+    footer a {
+      color: #FF5733;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    h2.section-title {
+      text-align: center;
+      margin-top: 40px;
+      color: #FF5733;
+    }
+    .map-container {
+      text-align: center;
+      margin: 40px 0;
+    }
+    iframe {
+      border: 0;
+      width: 90%;
+      height: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .status, #clock {
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      color: #444;
+    }
+    .open {
+      color: green;
+      font-weight: bold;
+    }
+    .closed {
+      color: red;
+      font-weight: bold;
+    }
+    marquee {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #FF5733;
+      margin: 20px 0;
+    }
+    .formulario {
+      text-align: center;
+      padding: 20px;
+    }
+    form input, form textarea {
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      width: 80%;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background-color: #FF5733;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 90%;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Buda Korean Dogs</h1>
+  </header>
+
+  <marquee behavior="scroll" direction="left">¡Prueba nuestras nuevas banderillas y bebidas exclusivas!</marquee>
+
+  <div class="description">
+    Somos un restaurante especializado en deliciosas banderillas coreanas y bebidas únicas y refrescantes. ¡Ven a probar una experiencia diferente!
+  </div>
+
+  <div id="status"></div>
+  <div id="clock"></div>
+
+  <h2 class="section-title">Banderillas</h2>
+  <div class="container">
+    <div class="product"><h3>Banderilla Potato</h3>
+      <p><a href="banderilla potato.html"><img src="papadoggss.png" alt="papadogg" width="200" height="221" longdesc="http://papagodd" border="0"></a></p>
+    <a href="banderilla potato.html"><button>COMPRAR</button></a></div>
+    <div class="product"><h3>Banderilla Doritos</h3>
+      <p><a href="doritokorean.html"><img src="doritodogg.jpg" width="200" height="247" alt="dorito" longdesc="http://dorito"></a></p>
+    <a href="doritokorean.html"><button>COMPRAR</button></a></div>
+    <div class="product"><h3>Banderilla Spicy</h3>
+      <p><img src="spicy.jpg" alt="spicy" width="200" height="250" border="0"></p>
+    <a href="bande spicy.html"><button>COMPRAR</button></a></div>
+    <div class="product"><h3>Banderilla Classic</h3>
+      <p><a href="classic.html"><img src="A classic crispy corn dog.png" alt="classic" width="200" height="205" border="0"></a></p>
+    <a href="classic.html"><button>COMPRAR</button></a></div>
+    <div class="product"><h3>Banderilla Cheese</h3>
+      <p><a href="cheese.html"><img src="queso.jpg" width="200" height="250" alt="queso"></a></p>
+    <a href="cheese.html"><button>COMPRAR</button></a></div>
+  </div>
+
+  <h2 class="section-title">Bebidas</h2>
+  <div class="container">
+    <div class="product"><h3>Poping Galaxy Fizz</h3>
+      <p><a href="galaxyyy.html"><img src="Imagen de WhatsApp 2025-05-13 a las 11.49.12_28a0d6b2.jpg" width="200" height="203" alt="galaxy"></a></p>
+    <a href="galaxyyy.html"><button>COMPRAR</button></a></div>
+    <div class="product"><h3>Electric Lemonade</h3>
+      <p><a href="lemonade.html"><img src="Imagen de WhatsApp 2025-05-13 a las 11.49.12_166621a6.jpg" width="200" height="200" alt="electric"></a></p>
+    <a href="lemonade.html"><button>COMPRAR</button></a></div>
+    <div class="product"><h3>Malteada Pink Cloud</h3>
+      <p><a href="pinkcloud.html"><img src="Imagen de WhatsApp 2025-05-13 a las 11.49.13_b961a4b0.jpg" width="200" height="203" alt="pink"></a></p>
+    <a href="pinkcloud.html"><button>COMPRAR</button></a></div>
+    <div class="product"><h3>Peach Sunset</h3>
+      <p><a href="melocon.html"><img src="pinkmelocon.png" width="200" height="205" alt="melocon"></a></p>
+    <a href="melocon.html"><button>COMPRAR</button></a></div>
+    <div class="product"><h3>Mango Milk Soda</h3>
+      <p><a href="mangoo.html"><img src="magocotton.png" width="200" height="205" alt="mango"></a></p>
+    <a href="mangoo.html"><button>COMPRAR</button></a></div>
+  </div>
+
+  <div class="map-container">
+    <h2 class="section-title">Ubicación</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.170587398624!2d-106.38993422462164!3d31.68390417413955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d005b39a7a7%3A0x74e308416ca96da1!2sBUDA!5e0!3m2!1ses!2smx!4v1747355114136!5m2!1ses!2smx"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <div class="formulario">
+    <h2 class="section-title">Contáctanos</h2>
+    <form action="#" method="post">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu correo" required />
+      <textarea name="mensaje" rows="4" placeholder="Tu mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Buda Korean Dogs · 
+    Síguenos en 
+    <a href="https://www.instagram.com/buda_koreandogs" target="_blank">Instagram</a> · 
+    <a href="https://www.tiktok.com/@buda.be" target="_blank">TikTok</a>
+  </footer>
+
+  <script>
+    function checkOpenStatus() {
+      var now = new Date();
+      var hour = now.getHours();
+      var minutes = now.getMinutes();
+      var totalMinutes = hour * 60 + minutes;
+      var openTime = 16 * 60;
+      var closeTime = 21 * 60 + 40;
+      var status = document.getElementById('status');
+      if (totalMinutes >= openTime && totalMinutes <= closeTime) {
+        status.innerHTML = "<span class='open'>🟢 ¡Estamos abiertos! Horario: 4:00 pm a 9:40 pm</span>";
+      } else {
+        status.innerHTML = "<span class='closed'>🔴 Cerrado. Abrimos de 4:00 pm a 9:40 pm</span>";
+      }
+    }
+
+    function updateClock() {
+      var now = new Date();
+      var day = ('0' + now.getDate()).slice(-2);
+      var month = ('0' + (now.getMonth() + 1)).slice(-2);
+      var year = now.getFullYear();
+      var hours = ('0' + now.getHours()).slice(-2);
+      var minutes = ('0' + now.getMinutes()).slice(-2);
+      var seconds = ('0' + now.getSeconds()).slice(-2);
+      document.getElementById('clock').textContent =
+        day + '/' + month + '/' + year + ' | ' + hours + ':' + minutes + ':' + seconds;
+    }
+
+    checkOpenStatus();
+    updateClock();
+    setInterval(checkOpenStatus, 60000);
+    setInterval(updateClock, 1000);
+  </script>
+</body>
+</html>

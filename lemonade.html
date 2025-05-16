@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Electric Lemonade - Buda Korean Dogs</title>
+  <style>
+    body {
+      background-color: #FFDB58;
+      background-image: radial-gradient(#f6f6f6 1px, transparent 1px);
+      background-size: 20px 20px;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #FF5733;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      color: white;
+      margin: 0;
+    }
+    .content {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .toc {
+      background-color: #fff3c4;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .toc h2 {
+      margin-top: 0;
+      color: #FF5733;
+    }
+    .toc ul {
+      list-style: none;
+      padding: 0;
+    }
+    .toc li {
+      margin-bottom: 10px;
+    }
+    .toc a {
+      color: #FF5733;
+      text-decoration: none;
+    }
+    .toc a:hover {
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    section h2 {
+      color: #FF5733;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .price {
+      font-size: 1.5em;
+      color: #e04e2a;
+      font-weight: bold;
+    }
+    .gallery {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .gallery img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .indent {
+      text-indent: 2em;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff3c4;
+      font-size: 0.9em;
+      color: #444;
+      border-top: 1px solid #ddd;
+    }
+    marquee {
+      display: block;
+      margin: 20px 0;
+      color: #FF5733;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Electric Lemonade</h1>
+  </header>
+
+  <marquee behavior="scroll" direction="left">⚡ Refresca tu día con Electric Lemonade, la bebida cítrica con un toque eléctrico que te encantará.</marquee>
+
+<div class="content">
+    <nav class="toc">
+      <h2>Contenido</h2>
+      <ul>
+        <li><a href="#descripcion">Descripción</a></li>
+        <li><a href="#precio">Precio</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#formulario">Formulario de Pedido</a></li>
+      </ul>
+    </nav>
+
+    <section id="descripcion">
+      <h2>Descripción</h2>
+      <p class="indent">
+        Electric Lemonade es una bebida cítrica y refrescante que combina el sabor intenso del limón con un toque de dulzura y burbujas para energizarte en cualquier momento.
+      </p>
+    </section>
+
+    <section id="precio">
+      <h2>Precio</h2>
+      <p class="price">$55.00 MXN</p>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería</h2>
+      <div class="gallery"><img src="Imagen de WhatsApp 2025-05-13 a las 11.49.12_166621a6.jpg" width="1080" height="1054" alt="lemonade" longdesc="http://lemonade"></div>
+    </section>
+
+  <section id="formulario">
+      <h2>Formulario de Pedido</h2>
+      <form action="pedido.php" method="post">
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+        <label for="cantidad">Cantidad:</label><br />
+        <input type="number" id="cantidad" name="cantidad" min="1" required /><br /><br />
+
+        <label for="comentario">Comentarios adicionales:</label><br />
+        <textarea id="comentario" name="comentario" rows="4"></textarea><br /><br />
+
+        <input type="submit" value="Enviar Pedido" />
+      </form>
+  </section>
+  <a href="korean.html">Página principal</a></div>
+
+  <footer>
+    &copy; 2025 Buda Korean Dogs · Síguenos en
+    <a href="https://www.instagram.com/buda_koreandogs" target="_blank">Instagram</a> ·
+    <a href="https://www.tiktok.com/@buda.be" target="_blank">TikTok</a>
+  </footer>
+</body>
+</html>
